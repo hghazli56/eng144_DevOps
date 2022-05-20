@@ -1,3 +1,2 @@
-- Bash Commands
-- Rename branch -> git branch -m master main
+-Coming soon: My git and bash notes 
 
