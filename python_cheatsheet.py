@@ -1,7 +1,7 @@
 #Variables
-a = 1 #int by deafult
-b = 3.5 #float by deafult
-c = "Hello World!" #String by deafult
+a = 1 #int by default
+b = 3.5 #float by default
+c = "Hello World!" #String by default
 
 a = a + 5 #variable values can be overwritten as we go down the code
 
@@ -54,22 +54,22 @@ a = "s"
 b = "u"
 c = "p"
 
-print(a + b + c)#Strings can be concatonated(there will be no space between said strings)
+print(a + b + c)#Strings can be concatenated(there will be no space between said strings)
 
 x = 3
 y = 5.4
 z = "hello"
-print(str(x) + str(y) + z)# Since we can't concatonate numerical values with strings, we cant caste the numerical values into strings allowing for joining
+print(str(x) + str(y) + z)# Since we can't concatenate numerical values with strings, we cant caste the numerical values into strings allowing for joining
 
 print(f"x is {x}, y is {y}, {z}")# we can directly display variable types with f strings
 
-print(f"x times 2 is {x * 2} and capital z is {z.upper()}")#We can also manipulate varibales within f strings
+print(f"x times 2 is {x * 2} and capital z is {z.upper()}")#We can also manipulate variables within f strings
 
 #Rounding decimal numbers
 
 pi = 3.14159265359
 
-print(f"Pi to 3 decima; places is : {pi:3f}")#We can round a float to a specified number of decimal places 
+print(f"Pi to 3 decimal; places is : {pi:3f}")#We can round a float to a specified number of decimal places 
 
 hi = "HelloWorld!"
 
@@ -98,7 +98,7 @@ y = 10
 print(bool(x)) #Prints boolean value of x as false due to zero value
 print(bool(y)) #Anything greater than 0 is TRUE
 
-z = None #Remember: None does not equate False. None is a lack of value while FALSE is still tecnically a value
+z = None #Remember: None does not equate False. None is a lack of value while FALSE is still technically a value
 
 #Lists
 
@@ -114,7 +114,7 @@ shopping_list.remove("bread")#Specified items can also removed
 
 shopping_list.pop()# Removes the last item from the list
 
-mix = [1, 2, 3, "one", "two", "three"]#Lists can also contain multple data types
+mix = [1, 2, 3, "one", "two", "three"]#Lists can also contain multiple data types
 
 print(mix[1:3])
 print(mix[-2::])
