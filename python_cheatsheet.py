@@ -9,7 +9,7 @@ a = a + 5 #variable values can be overwritten as we go down the code
 a = input("Please enter value for a: ") #Python can take user input, optionally you can display a message within the brackets  
 print(a) #You can then print the input value to the console
 
-#Arithmic Operators
+#Arythmic Operators
 a = 1 
 b = 2
 c = 3
