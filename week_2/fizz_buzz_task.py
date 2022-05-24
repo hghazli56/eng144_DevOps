@@ -9,5 +9,4 @@ def fizzbuzz(a, b):
         print(i)
     return "Done"
 
-print(fizzbuzz(3,5))
-    
+print(fizzbuzz(10,2))

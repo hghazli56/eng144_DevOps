@@ -5,10 +5,10 @@ class Car:
         self.current_speed = current_speed
 
     def accelerate(self):
-        self.current_speed += 10
-        if self.current_speed > self.top_speed:
+        if self.current_speed >= self.top_speed:
             return "You can't go any faster!"
         else:
+            self.current_speed += 10
             return self.current_speed
 
     def brake(self):
