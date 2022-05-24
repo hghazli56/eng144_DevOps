@@ -6,5 +6,11 @@ class Employee(person.Person):
         super().__init__(fname, lname)
 
     def print(self):
-        print(f"Department: {self._department}", end = " ")
-        super().print() #Here we call the print function from the person superclass 
+        super().print() #Here we call the print function from the person superclass
+        print(f"Department: {self._department}")
+         
+
+
+james = Employee("james", "smith", "sales")
+
+james.print()
