@@ -18,10 +18,6 @@ class Flight_trip:
             print(passenger)
 
 
-        
-
-
-
 
 
 lon_par = Flight_trip("London", "Paris", "28/04/2022",[])
