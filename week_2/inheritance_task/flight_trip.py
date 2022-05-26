@@ -1,4 +1,5 @@
 import gc
+from excel_generator import *
 
 class Flight_trip:
     def __init__(self, origin, destination, date, passenger_list):
@@ -29,7 +30,7 @@ lon_par.add_passenger("James", "Smith", 12335543)
 
 nyc_tky.add_passenger("Hamza", "Ghazli", 1233453)
 
-
+"""
 lon_par.print_passenger_list()
 
 nyc_tky.print_passenger_list()
@@ -39,4 +40,8 @@ print("List of flights")
 for i in gc.get_objects():
     if isinstance(i, Flight_trip):
         print(f" Origin: {i.origin}  Destination: {i.destination} Date: {i.date}")
+"""
 
+lon_par_excel = Flight_list_sheet()
+lon_par_excel.create_flight_sheet(lon_par.passenger_list)
+lon_par_excel.save_file_as("lon_par_passenger_list")
